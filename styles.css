@@ -1,0 +1,318 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #F8F9FB;
+}
+
+a {
+    color: #12849d;
+}
+
+.container {
+    width: 1240px;
+}
+
+.header {
+    background-color: #B99274;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.header input {
+    height: 25px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.header input:hover {
+    background-color: lightcyan;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 10%;
+    flex-grow: 1;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 3;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 1px rgb(205, 202, 202);
+}
+
+.link:hover {
+    color: rgb(76, 78, 76);
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.aboutDuck {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.aboutDuck:hover {
+    transform: scale(1.2);
+}
+
+.text {
+    text-align: center;
+}
+
+.img {
+    width: 30%;
+}
+
+.p {
+    border-bottom: 1px solid #eee;
+    font-size: 30px;
+}
+
+.lalafanfan {
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+}
+
+.stesha {
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+}
+
+.zefirka {
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+
+}
+.information{
+    display: flex;
+    flex-direction: column;
+}
+.moreInfo{
+    display: flex;
+}
+
+footer {
+    height: 100px;
+    background-color: #8A9B6E;
+    text-align: center;
+
+}
+
+footer p {
+    padding: 5px 0px;
+}
+
+.ducks {
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+    height: 300px;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    background-color: #ffb090;
+    padding: 50px 0px;
+    /* filter: invert(1) */
+    /* filter: brightness(1.2); */
+    /* box-shadow: 0 0 30px #80c3d2; */
+    /* opacity: 0.5; */
+    /* scale: 1.5; */
+}
+
+.info div {
+    text-align: center;
+}
+
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    height: 200px;
+    width: 250px;
+    margin: 15px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: .5s;
+}
+
+.block:hover {
+    transform: scale(1.1);
+}
+
+.infoImage {
+    width: 500px;
+    height: 500px;
+}
+
+.games {
+    background-color: #80c3d2;
+}
+
+.friends {
+    background-color: #ff8454;
+}
+
+.photo {
+    background-color: #88c87b;
+}
+
+.paper {
+    background-color: #f0cd3a;
+}
+
+.information{
+    text-align: center;
+    width: 500px;
+    font-size: 24px;
+}
+
+.information a {
+    text-decoration:none;
+    color: #12849d;
+    padding: 20px 0px;
+}
+
+.moreInfo{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-blog {
+    font-size: 28px;
+    margin: 20px 0px;
+}
+
+.post-descr p {
+    font-size: 20px;
+}
+
+@media(max-width: 480px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .moreInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .moreInfo img {
+        width: 100%;
+    }
+    .information {
+        width: 100%;
+    }
+    .blocks {
+        display: flex;
+        flex-direction: column;
+    }
+    .end-blocks {
+        display: flex;
+        justify-content: center;
+    }
+    .header {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    input {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .container img {
+        width: 100%;
+    }
+    .aboutDuckContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width: 1280px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .moreInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .moreInfo img {
+        width: 100%;
+    }
+    .information {
+        width: 100%;
+    }
+    .blocks {
+        display: flex;
+        flex-direction: column;
+    }
+    .end-blocks {
+        display: flex;
+        justify-content: center;
+    }
+    .header {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    input {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .container img {
+        width: 100%;
+    }
+    .aboutDuckContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    figure {
+        max-width: 100px;
+    }
+    .logo {
+        width: 50%;
+    }
+}
